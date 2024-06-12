@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+}
+
+html {
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.perrosAleatorios {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cards-random article img {
+    position: relative;
+    width: 200px;
+    height: 220px;
+    box-shadow: 10px 10px 10px rgb(85, 85, 85);
+}
+
+.cards-random article {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+}
+
+.cards-random {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+}
+
+ .cards-random article button {
+    position: absolute;
+    width: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+article button i {
+    position: absolute;
+    border: 5px solid #fff ;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    bottom: -220px;
+    left: 80px;
+    font-size: 20px;
+    color: rgb(37, 37, 37);
+}
+
+.cards-random article {
+    background-color: rgb(247, 247, 247);
+}
+
+.perrosAleatorios button {
+    width: 100px;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+#perrosFavoritos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.perrosAleatorios button {
+    border-radius: 20px;
+    background-color: rgb(133, 133, 133);
+    width: 11em;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.title-favoritos {
+    margin: 2em;
+}
+
+#perrosFavoritos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#perrosFavoritos article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#perrosFavoritos article {
+    display: flex;
+    flex-direction: column;
+}
+
+#perrosFavoritos article img {
+    margin: 30px;
+}
+
+#perrosFavoritos article button {
+    border-radius: 20px;
+    background-color: rgb(133, 133, 133);
+    width: 15em;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+#formularioPerrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 3em;
+    gap: 3em;
+}
+
+#formularioPerrito button {
+    background-color: rgb(214, 51, 51);
+    border-radius: 5px;
+    font-size: 10px;
+    color: #fff;
+    padding: 5px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 3em;
+}
